@@ -3,8 +3,31 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: violet;
+  color: black;
   text-align: center;
   margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+#joke-btn:hover {
+  color: lavender;
+}
+#joke-btn {
+  background-color: plum;
+  display: flex;
+  justify-content:center;
+  align-self: center;
+  margin: auto;
+  border-color: plum;
+  border-radius: round;
 }
